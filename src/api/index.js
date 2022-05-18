@@ -1,6 +1,8 @@
 import axios   from 'axios';
 
-const url = 'http://localhost:5001';
+const url = 'http://localhost:8001';
+//const url2 = 'http://localhost:8280/product';
+//const url3 = 'http://localhost:8280/user';
 
 
 export const signIn = (formdata) => axios.post(`${url}/user/signin`,  formdata);

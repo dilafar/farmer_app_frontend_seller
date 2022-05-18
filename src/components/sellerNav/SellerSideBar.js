@@ -72,7 +72,7 @@ import {
               <ListItemIcon>
                 <Home />
               </ListItemIcon>
-              <ListItemText primary="All Product" />
+              <ListItemText primary="All Products" />
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
