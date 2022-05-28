@@ -101,6 +101,9 @@ const Additems = () => {
       onChange={(e)=> setcategories(e.target.value)}
       style={{width: "800px"}}
     >
+       <option value = "seeds">
+        Select categorie
+      </option>
       <option value = "seeds">
         seeds
       </option>
